@@ -1,0 +1,49 @@
+
+header {
+    color: white;
+    background-color: rgba(251, 133, 0);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(254, 249, 235);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-header {
+    color: white;
+    background-color: rgba(255, 183, 3);
+
+}
+
+.list-group {
+    color: black;
+    
+}
+
+/* MAKE IT ALL ON ONE LINE AND SMALLER */
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+    background-color: rgb(254, 249, 235);
+}
+
+#email {
+    color:rgba(0, 0, 255, 0.584);
+}

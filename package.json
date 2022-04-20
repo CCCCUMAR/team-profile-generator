@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "creating a tema profile using command line",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCCCUMAR/team-profile-generator.git"
+  },
+  "author": "Cumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CCCCUMAR/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/CCCCUMAR/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^27.5.1"
+  }
+}
